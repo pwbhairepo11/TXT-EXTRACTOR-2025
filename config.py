@@ -1,11 +1,11 @@
 import os
 from os import getenv
 
-API_ID = int(os.environ.get("API_ID", ""))  # Replace "123456" with your actual api_id or use .env
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "28460032"))  # Replace "123456" with your actual api_id or use .env
+API_HASH = os.environ.get("API_HASH", "1457c3ba64719a1e442aae67217b67c2")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8150025209:AAHstLep9sQePj2X0YvitaXfgmz8EvKsGY0")
 
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))  # Your Telegram user ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "6977768796"))  # Your Telegram user ID
 SUDO_USERS = list(map(int, os.environ.get("SUDO_USERS", "").split()))  # Space-separated user IDs
 
 MONGO_URL = os.environ.get("MONGO_URL", "")##your mongo url eg: withmongodb+srv://xxxxxxx:xxxxxxx@clusterX.xxxx.mongodb.net/?retryWrites=true&w=majority
